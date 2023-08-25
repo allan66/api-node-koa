@@ -4,8 +4,8 @@
   "description": "Project to test the hability of the coop to solve basic problems",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon src/app.js",
-    "dev": "NODE_ENV=dev node src/app.js",
+    "start": "nodemon api/app.js",
+    "dev": "NODE_ENV=dev node api/app.js",
     "test": "mocha"
   },
   "repository": {
